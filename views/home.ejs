@@ -1,0 +1,60 @@
+<%- include("partials/_header") %>
+
+<%- include("partials/_nav") %>
+
+ <!-- ======= Hero Section ======= -->
+ <section id="hero">
+
+    <div class="container">
+      <div class="row d-flex align-items-center">
+      <div class=" col-lg-6 py-5 py-lg-0 order-2 order-lg-1" data-aos="fade-right">
+        <h1>Blog X ile blog oluştur</h1>
+        <h2>Her konuda yazabileceğin blogları bizimle paylaş</h2>
+        <a href="/" class="btn-get-started scrollto">Başla</a>
+      </div>
+      <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
+        <img src="images/hero-img.png" class="img-fluid" alt="">
+      </div>
+    </div>
+    </div>
+
+</section><!-- End Hero -->
+
+
+  
+<section id="services" class="services section-bg">
+    <div class="container">
+
+        <div class="section-title">
+            <h2 data-aos="fade-in">Blogs</h2>
+            <p data-aos="fade-in">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+        
+    </div>
+    
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%- include("partials/_blogs") %>
+              </div>
+              <div class="carousel-item">
+                <%- include("partials/_blogs") %>
+              </div>
+              <div class="carousel-item">
+                <%- include("partials/_blogs") %>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    
+
+    </div>
+</section>
+<%- include("partials/_footer") %>

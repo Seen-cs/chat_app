@@ -1,0 +1,18 @@
+<%- include("partials/_header") %>
+
+<%- include("partials/_nav") %>
+<div class="container my-4 ">
+    <h1>Ürün Listesi</h1>
+    <ul>
+      <% blogs.forEach((blog) => { %>
+        <li><%= blog.mainTitle %> 
+            <% blog.contents.forEach(content => {%>
+                <%= content.title %> 
+                <%}); %>
+        </li>
+      <% }); %>
+    </ul>
+</div>
+
+
+  <%- include("partials/_footer") %>
