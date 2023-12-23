@@ -1,0 +1,26 @@
+[
+    {
+        "firsName": "Enes",
+        "lastName": "Döner",
+        "email": "ens@gmail.com",
+        "password": "12434"
+    },
+    {
+        "firsName": "Neset Can",
+        "lastName": "Salık",
+        "email": "nst@gmail.com",
+        "password": "212"
+    },
+    {
+        "firsName": "Samet",
+        "lastName": "Kopar",
+        "email": "smt@gmail.com",
+        "password": "2314"
+    },
+    {
+        "firsName": "Gey",
+        "lastName": "Kendirli",
+        "email": "emre@gmail.com",
+        "password": "32132"
+    }
+]
